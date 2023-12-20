@@ -1,0 +1,37 @@
+fieldset{
+    display: flexbox;
+    width: 50%;
+    height: 90%;
+    margin: 0 auto; 
+    border-color: black;
+    text-align: center;
+}
+
+legend{
+    font-size: x-large;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.formulario div {
+    margin: 15px; 
+}
+
+label{
+    color: rgb(67, 0, 101); 
+    font-size: large;
+}
+
+input{
+    background-color: rgba(151, 79, 187, 0.697);
+    border-style:double; 
+    border-color: rgb(67, 0, 101);
+    width: 60%;
+    height: 50%;
+}
+
+#login{
+    width: 30%;
+}

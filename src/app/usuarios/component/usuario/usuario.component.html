@@ -1,0 +1,18 @@
+<fieldset>
+    <legend>Login</legend>
+    <form action="" [formGroup]="formulario" class="formulario">
+        
+        <label for="username">Username </label>
+        <div>
+            <input type="text" name="username" formControlName="username" required>
+        </div>
+
+        <label for="password">Password </label>
+        <div>
+            <input type="text" name="password" id="password" formControlName="password" required>
+        </div>
+
+        <input type="submit" name="login" id="login" value="login" (click)="verificarDatos()">
+        
+    </form>
+</fieldset>
